@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #089da1;
+    background: #fff;
+    position:absolute;
+    left: 0;
+    z-index: 100;
+}
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+section nav ul{
+    list-style: none;
+}
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+section nav li a:hover{
+    color: #089da1;
+}
+.aboutus{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.aboutus h2{
+    color: #089da1;
+    text-align: left;
+
+}
+.aboutus{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 20px 0;
+}
+.container1{
+    position: absolute;
+    top: 290px;
+    left: 0px;
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.container-box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr;
+    grid-gap: 25px 0;
+}
+.box{
+    width: 400px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+.box:hover{
+    box-shadow: 0 0 5px #089da1;
+}
+.button{
+    
+    color: aliceblue;
+    background-color: #089da1;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #089da1;
+    border-radius: 20px;
+    position: relative;
+    top: 80px;
+    width: 280px;
+
+}
+.download-btn{
+    outline: none;
+    border: none;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    padding: 16px 25px;
+    border-radius: 6px;
+    align-items: center;
+    white-space: nowrap;
+    background: #089da1;
+    transition: all 0.2s ease;
+    position:relative;
+    top: 40px;
+    left: 70px;
+  }
+  .download-btn:hover{
+    background: #089da1;
+  }
+  .download-btn.timer{
+    color: #000;
+    background: none;
+    transition: none;
+    font-size: 1.6rem;
+    pointer-events: none;
+  }
+  .download-btn.timer b{
+    color: #089da1F7;
+    padding: 0 8px;
+  }
+  .download-btn .icon{
+    font-size: 2rem;
+  }
+  .download-btn .text{
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+  .Podcasts{
+    position:absolute;
+    top: 1500px; 
+    left: 0;
+  }
+  .box2{
+    width: 400px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+  }
+  .box2:hover{
+    box-shadow: 0 0 5px #089da1;
+}
+.pts1{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 20px 0;
+}
+.pts2{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 20px 0;
+}
+.Podcasts p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.intro1{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 20px 0;
+}
+.intro{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 20px 0;
+}
+.Podcasts h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+

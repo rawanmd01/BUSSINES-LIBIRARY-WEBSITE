@@ -1,0 +1,265 @@
+
+</html><!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href=" homepage.css">
+        
+        <meta charset="UTF-8" />
+
+    <title> BusinessBooksAndPodcasts</title>
+    <meta name="description" content="This website offers a collection of books and podcasts in the field of business" />
+
+    </head>
+    <body>
+        <body>
+            <section>
+                <nav>
+    
+                    <div class="logo img"> 
+                        <img src="E:\BUSINESS LIBARARY\logo.png">
+                    </div>
+        
+                    
+                <h1> Business Library</h1>
+                <ul>
+                    <li><a href="file:///E:/BUSINESS%20LIBARARY/homepage.html">Home</a></li>
+                <li><a href="file:///E:/BUSINESS%20LIBARARY/login.html">login</a></li>
+                <li><a href="file:///E:/BUSINESS%20LIBARARY/createanaccount.html">Create An Account</a></li>
+            
+                
+                </ul>
+                
+                
+        
+                </nav>
+                
+            
+    
+            
+            </section>
+            <div class="aboutus">
+                <h2>
+                    WELCOME TO BUSINESS LIBIRARY
+                </h2>
+                <P> "This is a website that offers a variety of books and podcasts in a variety of fields related to business.<br>
+                More learning and fun: from existing fields such as digital marketing, business analysis,<br>
+                business intelligence, and podcasts about business and entrepreneurs."</P>
+
+            </div>
+            <div class="container1" >
+                <h1 class="heading">All Books</h1>
+    
+                <div class="container-box">
+                    <div class="box">
+                        <img src="E:\BUSINESS LIBARARY\3D_Affiliate-Marketing_eMarketing-Institute.png"
+                    alt="3D_Affiliate-Marketing_eMarketing-Institute" style="width:200px;height:200px;">
+                    <h3> Affiliate Marketing</h3>
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                        <script>
+                        const downloadBtn = document.querySelector(".download-btn");
+                        const fileLink = "https://drive.google.com/file/d/1WT0dJV2pCBviMhgw1V7EiPeEUB2_7Isq/view?usp=drive_link://drive.google.com/uc?export=download&id=1aYiaLn3YOjL-_o5QBCy7tU1epqA6gZoi";
+                        const initTimer = () => {
+                        if(downloadBtn.classList.contains("disable-timer")) {
+                        return location.href = fileLink;
+                        }
+                        let timer = downloadBtn.dataset.timer;
+                        downloadBtn.classList.add("timer");
+                        downloadBtn.innerHTML = `Your download will begin in <b>${timer}</b> seconds`;
+                        const initCounter = setInterval(() => {
+                        if(timer > 0) {
+                        timer--;
+                        return downloadBtn.innerHTML = `Your download will begin in <b>${timer}</b> seconds`;
+                        }
+                        clearInterval(initCounter);
+                        location.href = fileLink;
+                        downloadBtn.innerText = "Your file is downloading...";
+                        setTimeout(() => {
+                        downloadBtn.classList.replace("timer", "disable-timer");
+                        downloadBtn.innerHTML = `<span class="icon material-symbols-rounded">vertical_align_bottom</span>
+                                    <span class="text">Download Again</span>`;
+                        }, 3000);
+                        }, 1000);
+                        }
+                        downloadBtn.addEventListener("click", initTimer);
+                        </script>
+                    
+
+                    
+                    </div>
+                        <div class="box">
+                        <img src="E:\BUSINESS LIBARARY\3D_Blogging_eMarketing-Institute-1.png"
+                        alt="Blogging" style="width:200px;height:200px;">
+                        <h3>Blogging</h3>
+                        <button class="download-btn" data-timer="10">
+                            <span class="icon material-symbols-rounded"></span>
+                            <span class="text">Download or Read</span>
+                            </button>
+                        </div>
+                        
+            
+                    <div class="box">
+            
+                    <img src="E:\BUSINESS LIBARARY\3D_Content-Marketing_eMarketing-Institute.png"
+                    alt="Content-Marketing" style="width:200px;height:200px;">
+                    <h3>Content Marketing</h3>
+                    
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                    </div>
+                
+                    <div class="box"> 
+                    
+                    <img src="E:\BUSINESS LIBARARY\3D_E-Commerce_eMarketing-Institute-1.png"
+                    alt="E-Commerce" style="width:200px;height:200px;">
+                    <h3>E-Commerce</h3>
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                    </div>  
+                    
+                    <div class="box"> 
+                    <img src="E:\BUSINESS LIBARARY\3D_Email-Marketing_eMarketing-Institute.png"
+                    alt="Email-Marketing" style="width:200px;height:200px;">
+                    <h3>Email-Marketing</h3>
+                    
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                    </div>
+                    
+            
+            
+                    <div class="box">
+                
+                    <img src="E:\BUSINESS LIBARARY\Business intelligance.png"
+                    alt="Business Analytics" style="width:200px;height:200px;">
+                    <h3>Business Analytics</h3>
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                    </div>
+                    
+                    <div  class="box">
+                        <img src="E:\BUSINESS LIBARARY\BigData and Miningdata.png"
+                    alt="BigData and Miningdata" style="width:200px;height:200px;">
+                    <h3>BigData and Miningdata</h3>
+                    
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                    </div>
+                    
+                    <div class="box">
+                        <img src="E:\BUSINESS LIBARARY\Business Analytics.png"
+                        
+                    alt="Business intelligance" style="width:200px;height:200px;">
+                    <h3>Business intelligance</h3>
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                    </div>
+                    
+                    <div class="box">
+                        <img src="E:\BUSINESS LIBARARY\Interview in bussiness.png"
+                    alt="Interview in bussiness" style="width:200px;height:180px;">
+                    <h3>Interview Question in Business Analytics</h3>
+                    <button class="download-btn" data-timer="10">
+                        <span class="icon material-symbols-rounded"></span>
+                        <span class="text">Download or Read</span>
+                        </button>
+                    </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="Podcasts"> 
+            <h2>ALL Podcasts</h2>
+            <div class="intro1">
+            <img src="E:\BUSINESS LIBARARY\channels4_profile.jpg"
+            alt="businessinarabic" style="width:400px;height:300px;">
+            <p> "Business Arabic seeks to help people develop themselves and their businesses and avoid <br>
+                common mistakes and problems, following the different well-known models in management and entrepreneurship, <br>
+                and one of the most important goals of Business Arabic is to incite the owners of ideas to start<br>
+                their own projects and manage them professionally without making mistakes, <br>
+                and now we went in Business Arabic to a wider than that and we moved from just focusing on business<br>
+                to focusing on the life of each person and we started a project with a new slogan CEO_Your life and the goal is<br>
+                to develop life in general Whether at the level of finance and business and at the level of thinking." <br>
+            </p></div>
+            <br>
+            <div class="pts1">
+                <iframe width="100" height="150" 
+                src="https://www.youtube.com/embed/qI-Xr2vUao4?list=PLK6R01zBa3vJKurhwVvRhjQxpC60jrSO3" 
+                title="كيف تحول شغفك الى مشروع ناجح ومؤثر وتحقق عائد كبير منه  -  ياسمين هلال مؤسسة Educate Me  - EP #105" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen class="box2"></iframe>
+                
+                <iframe width="100" height="150" src="https://www.youtube.com/embed/7R9VV7UMA6E" 
+                title="من مهندس الى مستثمر في رأس المال الجرئ - محمد علاء الدين مدير في صندوق Global ventures  - EP #103"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen class="box2"></iframe>
+            
+                <iframe width="100" height="150" src="https://www.youtube.com/embed/V3jBi4wA9Po?list=PLK6R01zBa3vJKurhwVvRhjQxpC60jrSO3" 
+                title="تخطي الصعوبات و مهارات اتخاذ القرار   - محسن سرحان رئيس تنفيذي بنك الطعام  - EP #104" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen class="box2">
+            </iframe>
+            <iframe width="1255" height="706" src="https://www.youtube.com/embed/VAy57BMVsaw" 
+            title="لا تختار الاستسلام كيف تنجح المشروعات الصغيرة مع احمد شعبان الرئيس التنفيذي لشركة Simplex - EP #96" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture; web-share" allowfullscreen class="box2">
+            </iframe>
+            <a class="box2" href="https://www.youtube.com/playlist?list=PLK6R01zBa3vJKurhwVvRhjQxpC60jrSO3"
+            >More Episodes</a>
+            </div> 
+            <br>
+    
+            <div class="intro">
+            <img src="E:\BUSINESS LIBARARY\unnamed.jpg"
+            alt="businessinarabic" style="width:400px;height:300px;border-radius: 40px;">
+            <p> "A podcast for those interested in business and entrepreneurship, <br>
+                with Mashhour Al-Debian. Each episode will hear a person's experience in business in detail,<br>
+                without compliments or speculation."<br>
+            </p></div>
+            <br>
+            <div class="pts2">
+            <iframe width="100" height="150" src="https://www.youtube.com/embed/BZfzj49dpF8?list=PLeNNUmE-BlnE5GVCM_aZtWCLzCzHYA-ho"
+                title="قصة بيع وإغلاق تطبيق كاريدج | بودكاست سوالف بزنس"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen class="box2">
+            </iframe>
+            
+            <iframe width="100" height="150" src="https://www.youtube.com/embed/Scc_HHYCro8?list=PLeNNUmE-BlnE5GVCM_aZtWCLzCzHYA-ho" 
+            title="بزنس العطور والمكياج - نايس ون | بودكاست سوالف بزنس" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="box2">
+            </iframe>
+            
+            <iframe width="100" height="150"
+                src="https://www.youtube.com/embed/bNn3VO0AuAs?list=PLeNNUmE-BlnE5GVCM_aZtWCLzCzHYA-ho"
+                title="الخلطة السرية للامتياز التجاري - قطوف وحلا/كيان | بودكاست سوالف بزنس" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="box2">
+            </iframe>
+            
+            <iframe width="100" height="150" src="https://www.youtube.com/embed/jqaM0UlfgvI?list=PLeNNUmE-BlnE5GVCM_aZtWCLzCzHYA-ho" 
+            title="قصة تأسيس وبيع مطاعم كودو | بودكاست سوالف بزنس" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="box2">
+            </iframe>
+            <a class="box2" href="https://www.youtube.com/playlist?list=PLeNNUmE-BlnE5GVCM_aZtWCLzCzHYA-ho">More Episodes</a>
+            </div>
+        </div>
+
+        </body>
+    </html>
